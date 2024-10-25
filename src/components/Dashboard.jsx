@@ -122,7 +122,7 @@ const Dashboard = () => {
         </div>
       </div>
       <div className="mt-8">
-        <h2 className="text-3xl text-green-600 font-bold mb-4">Detailed Weather Data</h2>
+        <h2 className="text-4xl ml-10 hover:text-blue-500 text-green-600 font-bold mb-4">Detailed Weather Data</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {weatherData.map((data, index) => (
             <div key={index} className="bg-white p-4 rounded shadow-md">
